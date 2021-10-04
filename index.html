@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="Enter your description here" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link
+    rel="style"
+    href="assets/css/style.css"
+  />
+    <title>Your Weather</title>
+  </head>
+
+  <body>
+    <div id="jumbotron" class="jumbotron jumbotron-fluid">
+      <div class="container d-flex justify-content-center text-light">
+        <h1 class="display-4 ">Weather Dashboard</h1>
+      </div>
+    </div>
+    
+    <div id=" form-container" class="">
+      <div class="row">
+        <form class="col-4 pl-5">
+          <div class="form-group ">
+            <label for="exampleInputEmail1">Search for City</label>
+            <input type="city" class="form-control " id="search-city" aria-describedby="emailHelp" placeholder="Enter City Here">
+          </div>
+          <button id="submit-city" type="submit" class="btn btn-primary col 12">Submit</button>
+        </form>
+
+        <div id= "weather-day" class="border border-secondary col-xl-6">
+          <h1> Weather</h1>
+          <ul>
+            <li>Temp:</li>
+            <li>Wind:</li>
+            <li>Humidity:</li>
+            <li>UV Index:</li>
+          </ul>
+        </div>  
+
+      </div> 
+
+      <div class="row">
+        <div class="col-xl-4"></div>
+          <h3>5-Day Forecast</h3>
+        </div>
+      </div>
+
+      <div id="forecast" class="row">
+        <div class="d-flex justify-content-center col-8">
+
+          <div class= "col-2">
+            <div class="border">
+              <p>date</p>
+              <ul>
+               <li>Temp:</li>
+               <li>Wind:</li>
+               <li>Humidity:</li>
+             </ul>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div class="border">
+              <p>date</p>
+              <ul>
+                <li>Temp:</li>
+                <li>Wind:</li>
+                <li>Humidity:</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div class="border">
+              <p>date</p>
+              <ul>
+                <li>Temp:</li>
+                <li>Wind:</li>
+                <li>Humidity:</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div class="border">
+              <p>date</p>
+              <ul>
+                <li>Temp:</li>
+                <li>Wind:</li>
+                <li>Humidity:</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div class="border">
+              <p>date</p>
+              <ul>
+                <li>Temp:</li>
+                <li>Wind:</li>
+                <li>Humidity:</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
